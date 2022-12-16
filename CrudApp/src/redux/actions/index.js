@@ -1,3 +1,4 @@
+
 export const CreateData = (data) => {
     return {
       type: "Create",
@@ -7,17 +8,17 @@ export const CreateData = (data) => {
 export const UpdateData = (data) => {
     return {
       type: "Update",
-      payload: {
-       id:data.id,
-       modelo : data.modelo
-      }
+      payload:data
     }
   }
 export const DeleteData = (data) => {
     return {
       type: "Delete",
-      payload: {
-       id:data
-      }
+      payload:data
+    }
+  }
+export const DeleteAll = () => {
+    return {
+      type: "DeleteAll",
     }
   }
