@@ -1,2 +1,2 @@
 # CrudTest
-Crud app con react native sencilla
+Crud app con react native sencilla, con base de datos en firestore
